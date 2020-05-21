@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.164)), url("./Artboard\ 1.png");
+    background-repeat: repeat;
+    background-size: 80vh;
+}
+#header {
+    opacity: 10px;
+}
+button,
+div,
+form,
+#header,
+label,
+input {
+    margin: 10px;
+}
+#gifsappear {
+    background-color: rgba(99, 36, 128, 0.384);
+    width: fit-content;
+    border-radius: 6px;
+}
+.women{
+    background-color: rgb(255, 228, 110);
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+}
+.women:hover {
+    background-color: rgb(187, 162, 50);
+    cursor: pointer;
+    color: white;
+}
+.women:active {
+    background-color: rgb(255, 165, 129);
+    box-shadow: 0 5px rgb(146, 145, 145);
+    transform: translateY(4px);
+}
+#add-woman {
+    background-color: rgb(255, 110, 219);
+    border-radius: 8px;
+    padding: 5px 25px;
+    margin-top: -5px;
+}
+#add-woman:hover {
+    background-color: rgb(124, 35, 102);
+    cursor: pointer; 
+    color: white;
+}
+#add-woman:active {
+    background-color: rgb(106, 35, 124);    
+    box-shadow: 0 5px rgb(146, 145, 145);
+    transform: translateY(4px);
+}
+p {
+    color: white;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+#directions {
+    background-color: rgba(46, 66, 97, 0.459);
+    width: 37vw;
+    border-radius: 4px;
+    height: 14vh;
+}
+h3 {
+    color: rgb(245, 245, 245);
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+#woman-input {
+    border-radius: 4px;
+    padding-right: 50px;
+}
